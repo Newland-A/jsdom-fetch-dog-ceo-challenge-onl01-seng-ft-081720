@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   dogBreedUl.addEventListener('click', function(event) {
     // changes the color of the li item if it is clicked
-    event.target.style.color = 'red'
+    event.target.style.color = 'blue'
   })
 // selects the dropdown by id add listener for change event on 
   breedDropdown.addEventListener('change', function(event) {
